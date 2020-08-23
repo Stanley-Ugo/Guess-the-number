@@ -54,3 +54,52 @@ button:last-child {
     background: var(--red);
     border-radius: 0 0 1rem 1rem;
 }
+
+h3 {
+    font-size: 2rem;
+}
+
+input {
+    border: 1px solid lightgrey;
+    background: transparent;
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 16rem;
+    text-align: center;
+}
+
+#range {
+    display: flex;
+    background: var(--green);
+    height: 50px;
+    padding: 0;
+    margin: 0 0 4rem 0;
+}
+
+#rangeOutput {
+    font-size: 1.6rem;
+}
+
+.stats {
+    text-align: left;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info span {
+    font-size: 1.6rem;
+}
+
+#newGameButton {
+    border-radius: 0;
+}
+
+@media (min-width: 800px) {
+    body {
+        width: 60vw;
+    }
+}
