@@ -1,3 +1,11 @@
+:root {
+    --green: #83e1d0;
+    --red: #ef7b54;
+    --background: #f8f1e9;
+    --gradient-1: #343e63;
+    --gradient-2: #2a3352;
+}
+
 html {
     font-size: 10px;
     font-weight: 300;
@@ -6,13 +14,13 @@ html {
 body {
     width: 90vw;
     margin: 0 auto;
-    background: radial-gradient(#343e63, #2a3352);
+    background: radial-gradient( var(--gradient-1), var(--gradient-2));
 }
 
 main {
     text-align: center;
-    background: #f8f1e9;
-    border: solid #ef7b54;
+    background: var(--background);
+    border: solid var(--red);
     border-width: 0 8px 8px 8px;
     min-height: 80vh;
     border-radius: 0 0 3rem 3rem;
@@ -37,8 +45,12 @@ p {
 button {
     border: none;
     cursor: pointer;
-    background: #83e1d0;
+    background: var(--green);
     padding: 2rem;
     border-radius: 1rem 1rem 0 0;
 }
 
+button:last-child {
+    background: var(--red);
+    border-radius: 0 0 1rem 1rem;
+}
