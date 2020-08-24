@@ -12,5 +12,9 @@ function startGameView(){
 }
 
 function easyMode(){
-    
+    startGameView();
+}
+
+function hardMode(){
+    startGameView();
 }
