@@ -8,6 +8,10 @@ function gameEnded(){
     document.getElementById("inputBox").setAttribute("readonly", "readonly");
 }
 
+function newGame(){
+    window.location.reload();
+}
+
 function init(){
     computerGuess = Math.floor(Math.random() * 100 + 1);
     console.log(computerGuess);
