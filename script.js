@@ -7,5 +7,6 @@ function init(){
 }
 
 function startGameView(){
-    
+    document.getElementById("welcomeScreen").style.display = "none";
+    document.getElementById("gameArea").style.display = "block";
 }
