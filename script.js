@@ -5,3 +5,7 @@ function init(){
     document.getElementById("newGameButton").style.display = "none";
     document.getElementById("gameArea").style.display = "none";
 }
+
+function startGameView(){
+    
+}
