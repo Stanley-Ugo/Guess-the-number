@@ -21,5 +21,7 @@ function hardMode(){
 }
 
 function compareGuess(){
-    
+    const userGuess = Number(document.getElementById('inputBox').value);
+    userGuesses.push(userGuess);
+    document.getElementById('guesses').innerHTML = userGuesses;
 }
